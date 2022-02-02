@@ -23,3 +23,12 @@ https://tproger.ru/translations/delaem-kod-chishhe-s-pomoshhju-destrukturizacii-
 fieldTicket\
 labelTicket\
 inputTicket\
+
+### День 2 ###
+Создаем самолет
+
+*Необязательное задание:*
+В Заголовке у самолета должно выводится количество \
+пример:\
+"выберите 3 места"\
+"выберите 5 мест"
