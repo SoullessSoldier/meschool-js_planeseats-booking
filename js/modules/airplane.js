@@ -54,7 +54,7 @@ const createBlockSeats = (n, count) => {
 			return seat;
 		});
 		seats.append(...seatsRow);
-		wrapperRow.append(seatsRow);
+		wrapperRow.append(seats);
 		fuselage.append(wrapperRow);
 	}
 
