@@ -92,13 +92,14 @@ const createAirplane = (title, scheme) => {
 };
 
 const airplane = (main, data) => {
+	debugger;
 	const numberSeats = data.length;
-	const title = `Выберите ${numberSeats} места` ? numberSeats > 1 && numberSeats < 5 : 
-		`Выберите ${numberSeats} мест` ? numberSeats > 4 && numberSeats < 21 :
+	const title = numberSeats > 1 && numberSeats < 5 ? `Выберите ${numberSeats} места`  : 
+		numberSeats > 4 && numberSeats < 21 ? `Выберите ${numberSeats} мест` : 
 		`Выберите ${numberSeats} место`;
-		const scheme = ['exit', 11, 'exit', 1, 'exit', 17, 'exit'];
+	const scheme = ['exit', 11, 'exit', 1, 'exit', 17, 'exit'];
 		
-		main.append(createAirplane(title, scheme));
+	main.append(createAirplane(title, scheme));
 };
 
 export default airplane;
