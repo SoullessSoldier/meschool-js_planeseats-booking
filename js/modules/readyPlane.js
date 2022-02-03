@@ -18,8 +18,8 @@ const readyPlane = (forms, main) => {
 				});
 				airplane(main, data);
 			}
-		})
-	})
+		});
+	});
 };
 
 export default readyPlane;

@@ -91,8 +91,7 @@ const createAirplane = (title, scheme) => {
 	return choicesSeat;
 };
 
-const airplane = (main, data) => {
-	debugger;
+const airplane = (main, data) => {	
 	const numberSeats = data.length;
 	const title = numberSeats > 1 && numberSeats < 5 ? `Выберите ${numberSeats} места`  : 
 		numberSeats > 4 && numberSeats < 21 ? `Выберите ${numberSeats} мест` : 
